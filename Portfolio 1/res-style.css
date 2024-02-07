@@ -1,0 +1,136 @@
+@media (max-width:600px) {
+    body ,html {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+    }
+    .main1{
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 6%;
+    }
+    ul{
+        position: relative;
+    }
+    ul li{
+        display: none;
+    }
+    ul .menu  {
+        display: block;
+        margin-bottom: 2vmax;
+    }
+
+    .content{
+        height: 94%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        height: 30%;
+        width: 100%;
+    }
+    .left-content > h2{
+        width:  150%;
+        line-height: 5vmax;
+    }
+    .box{
+        padding: 0.3vmax 1.5vmax;
+    }
+    .box > i{
+        font-size: 3vmax;
+        padding-top: 1vmax;
+    }
+    .btn{
+        margin-top: 2vmax;
+    }
+    .right{
+        height: 50%;
+        width: 100%;
+    }
+    .image img{
+        height: 30vmax;
+        margin-bottom: 10%;
+    }
+    .content2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        padding: 2vmax 1vmax;
+    }
+    .left2{
+        height: 30%;
+        width: 100%;
+        text-align: center;
+    }
+    .left2> h1{
+        font-size: 4vmax;
+    }
+    .left2 > p{
+        width: 100%;
+    }
+    .right2{
+        height: 50%;
+        width: 100%;
+    }
+    .line{
+        height: 5%;
+        width: 100%;
+        background-color: white;
+    }
+    .skill-1 , .skill-2 , .skill-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-1 > h1 , .skill-2 > h1,.skill-3 >h1{
+        font-size: 3.3vmax;
+    }
+    .skill-1 > p , .skill-2 > p ,.skill-3 >p{
+        width: 80%;
+        text-align: center;
+        padding: 1vmax;
+    }
+    .main3{
+        display: flex;
+        flex-direction: column;   
+        width: 100%;
+        height: 120%;
+        gap: 1vmax;
+    }
+    .main3 > h1{
+        margin-top: 10vmax;
+    }
+    .project{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pr{
+        height: 18vamx;
+        width: 40vmax;
+    }
+    .main4{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left4{
+        height: 65%;
+        width: 100%;
+    }
+    .right4{
+        height: 35%;
+        width: 100%;
+    }
+    .right4 form{
+        padding-left:  4vmax;
+    }
+}
