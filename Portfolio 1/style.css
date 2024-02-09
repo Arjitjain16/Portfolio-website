@@ -33,7 +33,6 @@ html,body{
 ul{
     display: flex;
     gap: 2vmax;
-    height: 0vmax;
 }
 /* .show-ul{
     height: 10%;
